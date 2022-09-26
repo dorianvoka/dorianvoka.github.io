@@ -1,11 +1,11 @@
-
-## CV
-
+```
+Hamburg, Germany
+```
 ```
 info@dorianvoka.com
 ```
 
-__Persönliche Daten__
+<!-- __Persönliche Daten__
 ```
 Name:
 Geboren:
@@ -23,3 +23,4 @@ __Arbeitserfahrung__
 ```
 xx.xx.xxxx - xx.xx.xxxx : Jobtitel, Arbeitgeber
 ```
+-->
