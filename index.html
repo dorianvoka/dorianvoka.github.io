@@ -65,7 +65,7 @@
 	}
 	
 	
-		#header {
+	#header {
 		text-align: left;
 		margin: 25px;
 		font-size: 35px;
@@ -84,6 +84,24 @@
 	}
 	
 	
+	#footer {
+		text-align: right;
+		margin: 30px;
+		font-size: 20px;
+		font-family: NotoSans;
+		font-weight: lighter;
+	}
+	
+	@media only screen and (min-width: 900px) { 
+		#footer {
+		text-align: right;
+		margin: 30px;
+		font-size: 30px;
+		font-family: NotoSans;
+		font-weight: lighter;
+	}
+	}
+	
 	
 	
 	#alink {
@@ -97,6 +115,7 @@
 	#alink:hover {
 		color: grey;
 	}
+	
 	
 	#myVideo {
   width: 100vw;
@@ -123,7 +142,7 @@
 <div class="border">
   	
   	<video autoplay muted loop id="myVideo">
-  		<source src="bg-video2.mov" type="video/mp4">
+  		<source src="bg-video.mov" type="video/mp4">
 	</video>
   
   <h2 id="header">Dorian Voka</h2>
@@ -147,9 +166,13 @@
   <br>
   <br>
   <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
 
-  <p style="text-align: right; margin: 30px; font-size: 30px; font-family: NotoSans; font-weight: lighter;"> Hamburg, Germany</p>
+  <p id="footer"> Hamburg, Germany</p>
   
 </div>
 
