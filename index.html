@@ -8,10 +8,24 @@
   
   
   <style>
+  	
+  	
   	body {
   		background-color: #f0f0f0;
   		user-select: none;
   	}
+	
+
+	.border {
+		width: 99,9%;
+		height: 85vh;
+		border: 1px outset black;
+  		background-color: ;
+ 		text-align: center;
+ 		margin: 15px;
+	}
+
+@media only screen and (min-width: 900px) { 
 	.border {
 		width: 99,6%;
 		height: 91vh;
@@ -20,7 +34,7 @@
  		text-align: center;
  		margin: 35px;
 	}
-	
+}
 	
 	
 	@font-face {
@@ -33,12 +47,44 @@
     src: url("notosans/NotoSansJP-Regular.otf") format("opentype");
 	}
 	
+	
 	#navbar {
 		text-align: left;
 		margin: 29px;
-		font-size: 18px;
+		font-size: 16px;
 		font-family: NotoSansBold;
 	}
+	
+	@media only screen and (min-width: 900px) { 
+		#navbar {
+			text-align: left;
+			margin: 29px;
+			font-size: 18px;
+			font-family: NotoSansBold;
+		}
+	}
+	
+	
+		#header {
+		text-align: left;
+		margin: 25px;
+		font-size: 35px;
+		font-family: NotoSans;
+		font-weight: lighter;
+	}
+	
+	@media only screen and (min-width: 900px) { 
+		#header {
+		text-align: left;
+		margin: 25px;
+		font-size: 60px;
+		font-family: NotoSans;
+		font-weight: lighter;
+		}
+	}
+	
+	
+	
 	
 	#alink {
 		text-decoration: none;
@@ -80,7 +126,7 @@
   		<source src="bg-video.mov" type="video/mp4">
 	</video>
   
-  <h2 style="text-align: left; margin: 25px; font-size: 60px; font-family: NotoSans; font-weight: lighter;">Dorian Voka</h2>
+  <h2 id="header">Dorian Voka</h2>
   
   <p id="navbar" style="margin-top: 50px;"> <a id="alink" href=""> ⦿ </a> </p>
   
@@ -105,15 +151,8 @@
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
 
 
-  
   <p style="text-align: right; margin: 30px; font-size: 30px; font-family: NotoSans; font-weight: lighter;"> Hamburg, Germany</p>
   
 </div>
