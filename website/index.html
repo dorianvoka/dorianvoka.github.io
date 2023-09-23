@@ -72,12 +72,28 @@
          box-shadow: 0px 0px 30px rgba(0,0,0, 0.6);
          cursor: pointer;
          }
-         @media (min-width: 800px) {
+         
+         @media (min-width: 800px) and (max-width: 2040px){
          .myheader {font-size: 6vw;}
          }
          @media (max-width: 799px) {
          .myheader {font-size: 11vw;}
          }
+         @media (min-width: 2041px) {
+         .myheader {font-size: 115px;}
+         }
+         
+         @media (min-width: 800px) and (max-width: 2040px){
+         .myheader2 {font-size: 5vw;}
+         }
+         @media (max-width: 799px) {
+         .myheader2 {font-size: 11vw;}
+         }
+         @media (min-width: 2041px) {
+         .myheade2 {font-size: 115px;}
+         }
+         
+         
          @media (min-width: 1000px) {
          .knopfdesign{ margin-left: -12px; font-size: 25px; border-radius: 7px; }
          }
@@ -137,6 +153,7 @@
          <!-- NAVBAR END -->
          <br>
          <br>
+         <br>
          <!--  Container for TILT-BLOCK  -->
          <div id="tilt">
             <!-- LANDINGPAGE IMAGE START -->
@@ -145,11 +162,13 @@
          </div>
          <br>
          <br>
+         <br>
          <!-- HEADERS START -->
          <h1 class="myheader" style="color: white;">Webdesign, made in Hamburg.</h1>
          <br>
          <h2 style="color: white; font-weight: 250; "> <a href="#" style="color: grey;">Webdesign</a> , <a href="#" style="color: grey;">Webentwicklung</a> und <a href="#" style="color: grey;">Branding</a> von erfahrenen Designern und Programmierern. Entdecken Sie unbegrenztes Design zu fairen Preisen.</h2>
          <!-- HEADERS END -->
+         <br>
          <br>
          <br>
          <!-- CONTACT BUTTONS START -->
@@ -178,6 +197,7 @@
             <br>
             <br>
             <br>
+            <br>
             <!-- 4-Section START -->	
             <div class="container-fluid">
                <div class="row">
@@ -187,7 +207,7 @@
                      <br>
                      <h2 style="color: white; font-weight: 330; margin-left: -25px;">Sichere Entwicklung</h2>
                      <br>
-                     <p style="color: grey; font-weight: 400; margin-left: -25px; font-size: 22px">Wir legen einen großen Wert auf Sicherheit und auf das Einhalten von Regularien.</p>
+                     <p style="color: grey; font-weight: 400; margin-left: -25px; margin-right: 20px; font-size: 22px">Wir legen einen großen Wert auf Sicherheit und auf das Einhalten von Regularien.</p>
                      <br>
                      <br>
                   </div>
@@ -197,7 +217,7 @@
                      <br>
                      <h2 style="color: white; font-weight: 330; margin-left: -25px;">Überarbeitungen</h2>
                      <br>
-                     <p style="color: grey; font-weight: 400; margin-left: -25px; font-size: 22px">Das Projekt ist erst dann fertig, wenn der Kunde mit dem Ergebnis 100% zufrieden ist.</p>
+                     <p style="color: grey; font-weight: 400; margin-left: -25px; margin-right: 20px; font-size: 22px">Das Projekt ist erst dann fertig, wenn der Kunde mit dem Ergebnis 100% zufrieden ist.</p>
                      <br>
                      <br>
                   </div>
@@ -211,7 +231,7 @@
                      <br>
                      <h2 style="color: white; font-weight: 330; margin-left: -25px;">Faire Preise</h2>
                      <br>
-                     <p style="color: grey; font-weight: 400; margin-left: -25px; font-size: 22px">Wir bieten unseren Kunden eine transparente Preisgestaltung an.</p>
+                     <p style="color: grey; font-weight: 400; margin-right: 20px; margin-left: -25px; font-size: 22px">Wir bieten unseren Kunden eine transparente Preisgestaltung an.</p>
                      <br>
                      <br>
                   </div>
@@ -221,7 +241,7 @@
                      <br>
                      <h2 style="color: white; font-weight: 330; margin-left: -25px;">Die besten Designer</h2>
                      <br>
-                     <p style="color: grey; font-weight: 400; margin-left: -25px; font-size: 22px">Entdecken Sie unbegrenzte Möglichkeiten bei der Gestaltung Ihrer Website.</p>
+                     <p style="color: grey; font-weight: 400; margin-right: 20px; margin-left: -25px; font-size: 22px">Entdecken Sie unbegrenzte Möglichkeiten bei der Gestaltung Ihrer Website.</p>
                      <br>
                      <br>
                   </div>
@@ -233,7 +253,7 @@
             <!-- Calendly Badge-Widget Beginn -->
             <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
             <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-            <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/dorianvoka/erstgespraech?hide_gdpr_banner=1', text: 'Erstgespräch', color: '#f3f4f5', textColor: '#414040', branding: false }); }</script>
+            <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/dorianvoka/erstgespraech', text: 'Erstgespräch', color: '#f3f4f5', textColor: '#414040', branding: false }); }</script>
             <!-- Calendly Badge-Widget Ende -->
          </div>
       </div>
@@ -243,10 +263,13 @@
          <div class="static-container" style="background-color: white; width: 90%; max-width: 950px; margin: auto; height: 100%;">
             <br>
             <br>
-            <div style="background-color: #286640; width: 100px; height: 100px; text-align: center; justify-content: center; align-items: center; display: flex;"> <br><i class="bi bi-check2-all" style="color: white; font-size: 400%;"></i>  </div>
+            <br>
+            <br>
+            <div style="background-color: #286640; width: 100px; height: 100px; text-align: center; justify-content: center; align-items: center; display: flex; border-radius: 8px; margin-left: -5px;"> <br><i class="bi bi-check2-all" style="color: white; font-size: 400%;"></i>  </div>
             <br>
             <br>
             <br>
+            <h1 class="myheader2" style="color: black; margin-left: -5px;">Überzeugen Sie mit einem einzigartigem Internetauftritt.</h1>
             <br>
             <br>
             <br>
