@@ -1,0 +1,203 @@
+.dotLandingPage {
+	height: 54vmax;
+	width: 54vmax;
+	background-color: #FAF0E6;
+	border-radius: 50%;
+	display: inline-block;
+	background: linear-gradient(to top, rgba(227, 227, 218, 0.4), rgba(215, 215, 208));
+	left: 50%;
+	transform: translate(-50%, 0);
+	position: fixed;
+	z-index: -99999999999999999999999999999999999999;
+	transition: 1s ease;
+}
+
+@media only screen and (max-width: 1350px) {
+	.dotLandingPage {
+	height: 50vmax;
+	width: 50vmax;
+	top: 18vh;
+}
+}
+@media only screen and (max-width: 1000px) {
+	.dotLandingPage {
+	height: 50vmax;
+	width: 50vmax;
+	top: 22vh;
+}
+}
+
+
+
+
+.dotBigMenu {
+	height: 380px;
+	width: 380px;
+	background-color: rgb(95,95,87);
+	border-radius: 50%;
+	left: 60%;
+	top: -95px;
+	position: absolute;
+	transition: opacity 5.5s ease;
+	opacity: 0;
+}
+
+
+.dotSmallMenu {
+	height: 350px;
+	width: 350px;
+	background-color: rgb(78,75,70);
+	border-radius: 50%;
+	left: 68%;
+	top: -14px;
+	position: absolute;
+	transition: opacity 5.5s ease;
+	opacity: 0;
+}
+
+
+
+.navBar {
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	text-align: center;
+	top: 28px;
+
+	left: 28px;
+	background-color: rgb(185, 188, 175);
+	transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
+	/* Übergangseffekte für width, height, top und left */
+	position: fixed;
+
+}
+
+.navBar:hover {
+	width: 60px;
+	height: 60px;
+	top: 32px;
+	left: 32px;
+}
+
+.navMenu {
+	overflow: hidden;
+	width: 95vw;
+	max-width: 650px;
+	height: 97.2vh;
+	border-radius: 10px;
+	text-align: center;
+	top: 10px;
+	left: -1000px;
+	background-color: rgb(58, 55, 51);
+
+	transition: left 1s ease;
+	/* Übergangseffekte für width, height, top und left */
+	position: fixed;
+}
+
+
+.titel {
+	font-size: 8vw;
+	color: rgb(62,54,51);
+	font-weight: bold;
+	letter-spacing: -2px;
+	line-height: 170px;
+	transition: 1.2s ease;
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 1350px) {
+  .titel {
+		font-size: 9vw;
+		line-height: 340px;
+	}
+}
+@media only screen and (max-width: 900px) {
+  .titel {
+		font-size: 10vw;
+		line-height: 390px;
+	}
+}
+@media only screen and (max-width: 650px) {
+  .titel {
+		font-size: 10vw;
+		line-height: 1010px;
+		left: 30px;
+		text-align: left;
+		margin-left: 20px;
+	}
+}
+
+.navBurger {
+	font-size: 2em;
+	position: absolute;
+	top: 22%;
+	transform: translate(-50%, 0);
+	transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
+}
+
+.navBar:hover .navBurger {
+	font-size: 1.5em;
+}
+
+
+.landingPageDotAnimation {
+	animation: zoom 1.2s ease;
+}
+
+
+@keyframes zoom {
+	0% {
+		transform: scale(0.7, 0.7);
+	}
+
+	100% {
+		transform: scale(1, 1);
+	}
+}
+
+
+.grain {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	pointer-events: none;
+	background: url(https://cdn.shopify.com/s/files/1/0564/7617/2332/files/GrainBackround.gif?v=1667804647);
+	opacity: .065;
+	z-index: 99999999999999999999999999999999999999;
+}
+
+
+.transparentDiv {
+	height: 100vh;
+	width: 100%;
+	margin-top: -108px;
+	pointer-events: none;
+	background-color: transparent;
+
+}
+
+.blackSection {
+	height: 1000px;
+	width: 100%;
+	margin-top: -90px;
+	pointer-events: none;
+	background-color: black;
+	border-radius: 24px;
+}
+
+
+.darkenWebsite {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0);
+    opacity: 0;
+    transition: 1.2s ease;
+}
+
+
+
