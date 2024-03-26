@@ -155,7 +155,7 @@
 }
 
 .myTitle2 {
-	margin-right: 30px;
+	margin-right: 28px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -168,7 +168,7 @@
 	}
 	
 	.myHeaderContainer {
-	top: 56%;
+	top: 57%;
 	}
 	
 }
