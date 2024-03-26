@@ -150,7 +150,7 @@
 }
 
 .myTitle {
-	margin-right: 35px;
+	margin-right: 32px;
 	font-size: 44px;
 }
 
@@ -173,10 +173,10 @@
 	position: relative;
 	background-color: transparent;
 	max-width: 1200px;
-	margin-left: 12px;
+	margin-left: 7px;
 	margin-right: 16px;
 	left: 50%;
-	top: 50%;
+	top: 52%;
 	transform: translate(-50%, -50%);
 }
 
