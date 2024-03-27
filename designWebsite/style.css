@@ -204,20 +204,6 @@ visibility: hidden;
 	margin-right: 30px;
 }
 
-@media only screen and (max-width: 480px) {
-	.myTitle {
-		font-size: 32px;
-	}
-
-	.myTitle2 {
-		font-size: 20px;
-	}
-	
-	.myHeaderContainer {
-	top: 56%;
-	}
-	
-}
 
 .myHeaderContainer {
 	text-align: left;
@@ -229,6 +215,22 @@ visibility: hidden;
 	left: 50%;
 	top: 52%;
 	transform: translate(-50%, -50%);
+}
+
+
+@media only screen and (max-width: 480px) {
+	.myTitle {
+		font-size: 32px;
+	}
+
+	.myTitle2 {
+		font-size: 20px;
+	}
+	
+	.myHeaderContainer {
+	top: 57%;
+	}
+	
 }
 
 .myGridContainer {
